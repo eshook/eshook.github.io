@@ -62,20 +62,22 @@ body, html {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home"     class="w3-bar-item w3-button"><i class="fa fa-globe"></i> HOME</a>
-    <a href="#about"    class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
-    <a href="#projects" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROJECTS</a>
-    <a href="#contact"  class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#home"       class="w3-bar-item w3-button"><i class="fa fa-globe"></i> HOME</a>
+    <a href="#about"      class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#projects"   class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PROJECTS</a>
+    <a href="#contact"    class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+    <a href="#newsletter" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-paper-plane"></i> NEWSLETTER</a>
     <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>-->
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo"     class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about"    class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#projects" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
-    <a href="#contact"  class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+  <div id="navDemo"       class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about"      class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#projects"   class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECTS</a>
+    <a href="#contact"    class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <a href="#newsletter" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWSLETTER</a>
     <!--<a href="#" class="w3-bar-item w3-button">SEARCH</a>-->
   </div>
 </div>
@@ -125,27 +127,37 @@ body, html {
 
     </div>
   </div>
-  <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-large w3-center w3-padding-8">I am really good at:</p>
   <!--<p class="w3-wide"><i class="fa fa-earth-americas"></i>GIS (Geographic Information Systems/Science)</p>-->
   <p class="w3-large"><i class="fa fa-globe"></i> GIS (Geographic Information Systems/Science)</p>
+  <!--
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div>
   </div>
+  -->
   <p class="w3-large"><i class="fa fa-code"></i> Coding</p>
+  <!--
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:100%">100%</div>
   </div>
+  -->
   <p class="w3-large"><i class="fa fa-comment"></i> Communicating</p>
+  <!--
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:95%">95%</div>
   </div>
+  -->
   <p class="w3-large"><i class="fa fa-server"></i> Scalable Computing</p>
+  <!--
   <div class="w3-light-grey">
     <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
   </div>
+  -->
+  <p class="w3-large w3-center w3-padding-16">I am fortunate to have:</p>
 </div>
 
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+<!--<div class="w3-row w3-center w3-dark-grey w3-padding-16">-->
+<div class="w3-row w3-center w3-dark-grey w3-padding-8">
   <div class="w3-quarter w3-section">
 	  <span class="w3-xlarge">&gt;$1 million</span><br>
     Grants<br>
@@ -261,7 +273,7 @@ body, html {
 
   <div class="w3-row w3-padding-32 w3-section">
     <div class="w3-col m4 w3-container">
-	    <img src="img/minneapolis-tiny.png" class="w3-image w3-round" style="width:100%">
+	    <img src="img/minneapolis-tiny.png" alt="Image of Minneapolis Downtown" class="w3-image w3-round" style="width:100%">
     </div>
     <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
@@ -287,6 +299,44 @@ body, html {
       </form>
       -->
     </div>
+  </div>
+</div>
+
+<!-- Container (Newsletter) -->
+<div class="w3-content w3-container w3-padding-64" id="newsletter">
+  <h3 class="w3-center">NEWSLETTER</h3>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m8 w3-panel">
+	    <img src="img/globe-to-gates-small.jpg" alt="Image Showing Globe to Gates from Real World to Software to Hardware" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m4 w3-container">
+	    <p>
+	I am the author of the Globe to Gates Newsletter, which covers geospatial computing from end-to-end. 
+	    </p>
+	    <p>
+  	Let’s imagine the world as a globe. 
+  	How can we capture all the processes–all of what is happening on the globe–in software and hardware? 
+	    </p>
+	    <p>
+  	This is the essence of geospatial computing. To capture the happenings.
+	    </p>
+	    <p>
+	  <b>Subscribe to the <a href="https://globetogates.substack.com">The Globe to Gates Newsletter</a> by adding your email below.</b> 
+	    </p>
+      <!--<div class="w3-large w3-margin-bottom">
+      </div>-->
+    </div>
+  </div>
+  <!--<div class="w3-row w3-padding-32 w3-section">
+  </div>
+
+  <div class="w3-row w3-padding-32 w3-section w3-center">
+	  <b>Subscribe to the <a href="https://globetogates.substack.com">The Globe to Gates Newsletter</a> below.</b> 
+  </div>
+  -->
+  <div class="w3-row w3-section w3-center">
+    <iframe src="https://globetogates.substack.com/embed" width="480" height="320" style="border:0px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
   </div>
 </div>
 
